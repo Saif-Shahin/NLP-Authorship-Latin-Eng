@@ -1,7 +1,7 @@
 # NLP-Authorship-Latin-Eng
 Automating Latin-English Authorship Attribution. 
 
-Acess the tentative report here: LINK
+Access the tentative report [here](https://github.com/Saif-Shahin/NLP-Authorship-Latin-Eng/blob/main/Latin-Eng_Report.pdf).
 
 ## Dataset Summary and Preprocessing
 
