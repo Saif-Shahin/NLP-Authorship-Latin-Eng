@@ -31,3 +31,7 @@ Folder containing Python notebooks of the data exploration of the models examine
 
 <img width="800" alt="Screen Shot 2024-03-14 at 4 14 43 PM" src="https://github.com/Saif-Shahin/NLP-Authorship-Latin-Eng/assets/90293080/df3c545c-a705-4a93-8786-95fb1a82bd96">
 
+## Contributions
+<img width="800" alt="image" src="https://github.com/Saif-Shahin/NLP-Authorship-Latin-Eng/assets/90293080/7a5e54a4-2d6e-4606-abd7-46c073ea8ff8">
+
+
