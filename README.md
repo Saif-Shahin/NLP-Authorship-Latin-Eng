@@ -3,17 +3,21 @@ Automating Latin-English Authorship Attribution.
 
 Acess the tentative report here: LINK
 
-## Dataset
+## Dataset Summary and Preprocessing
 
-* The dataset includes 101,000 Latin-English text pairs from 57 classical books, with a 99%/1%/1% train/validation/test split.
-* Text distribution across books is heavily skewed; top 5 most common books were selected and equalized to reduce the dataset to approximately 4,400 entries for fair model training.
-* Implemented back-translation to augment the dataset, increasing its size to approximately 17,000 entries by translating texts to Italian and back to English, then to French and back, resulting in 17,352 texts.
-
-* Used the Lingua Language Detector to filter out texts not in the correct language, removing erroneous entries across all data instances.
-
-* Expanded all contractions in the dataset using word’s movers distance for English and specific rules for Latin to handle multi-semantic contractions.
-
-* Employed NLTK libraries for English data pre-processing (lemmatization and stop word removal) and CLTK libraries for Latin text, summarizing pre-processing steps for each data version.
+- **Dataset Composition**: Includes 101,000 Latin-English text pairs from 57 classical books.
+- **Data Split**: Utilizes a 99%/1%/1% train/validation/test split.
+- **Text Distribution**: Initially heavily skewed across books; adjusted by selecting and equalizing entries from the top 5 most common books, reducing the dataset to approximately 4,400 entries.
+- **Back-Translation Augmentation**:
+  - Increased dataset size to approximately 17,000 entries through back-translation.
+  - Process involved translating texts to Italian and then back to English, followed by further translation to French and back, totaling 17,352 texts.
+- **Language Accuracy**:
+  - Employed the Lingua Language Detector to identify and filter out incorrect language texts, enhancing dataset quality.
+- **Contraction Expansion**:
+  - Expanded all contractions in the dataset using word’s movers distance for English and specific rules for Latin, addressing multi-semantic contractions.
+- **Preprocessing Steps**:
+  - Used NLTK libraries for lemmatizing and removing stop words from the English data.
+  - Applied CLTK libraries for similar preprocessing on the Latin text.
 
 
 ## Exploration
@@ -23,8 +27,7 @@ Folder containing Python notebooks of the data exploration of the models examine
 *  [SVM](https://github.com/sghassemlou/NLP-Authorship-Latin-Eng/blob/main/Exploration/Models/SVMipynb)
 *  [mBERT](https://github.com/sghassemlou/NLP-Authorship-Latin-Eng/blob/main/Exploration/Models/mBERT.ipynb)
 
-### Sample Figures
-#### CNN Accuracies
-![alt text](https://github.com/sghassemlou/NLP-Authorship-Latin-Eng/blob/main/Exploration/CNNAcc.png?raw=true "CNN Accuracies")
-#### RNN Accuracies
-![alt text](https://github.com/sghassemlou/NLP-Authorship-Latin-Eng/blob/main/Exploration/RNNacc.png?raw=true "RNN Accuracies")
+## Results
+
+<img width="800" alt="Screen Shot 2024-03-14 at 4 14 43 PM" src="https://github.com/Saif-Shahin/NLP-Authorship-Latin-Eng/assets/90293080/df3c545c-a705-4a93-8786-95fb1a82bd96">
+
